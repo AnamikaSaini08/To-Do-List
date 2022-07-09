@@ -1,0 +1,79 @@
+body{
+  background-color: rgb(231, 20, 20);
+  flex-wrap: wrap;
+}
+
+.subheading
+{
+  display:flex;
+  justify-content:space-between;
+  margin-left: 10px;
+}
+
+::placeholder{
+  font-size: 60px;
+}
+
+.line
+{
+  display: block;
+}
+.del{
+  margin-right: 10px;
+}
+.edit
+{
+  margin-right: 10px;
+}
+.check{
+  height: 15px;
+  width: 15px;
+}
+.btns{
+  display: flex;
+  justify-content: end;
+}
+
+.tododlist
+{
+  background-color: rgb(37, 35, 35);
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.listtxt
+{
+  font-size: 20px;
+}
+
+
+.txt
+{
+  margin-right: 80px;
+ height:500px;
+ width: 600px;
+ background-color: rgb(224, 223, 223);
+}
+
+.heading{
+  margin-left: 280px;
+  font-size: 35px;
+}
+
+.para
+{
+  padding-left: 35px;
+  padding-right: 35px;
+  opacity: .7;
+  font-size: 20px;
+}
+.child
+{
+  width:600px;
+  height: 503px;
+  border: 1px solid gray;
+  background-color: rgb(214, 206, 206);
+  margin-left: 80px;
+  overflow: auto;
+}
+
